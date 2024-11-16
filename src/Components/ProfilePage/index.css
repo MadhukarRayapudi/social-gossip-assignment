@@ -1,0 +1,39 @@
+.profile-page{
+    background-color:antiquewhite;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-details-heading{
+    font-family: roboto;
+    font-size: 30px;
+    color: #000;
+    align-self: center;
+    text-decoration: underline;
+}
+
+.name-heading{
+    font-family: roboto;
+    font-size: 22px;
+}
+
+.profile-details-container{
+    background-color: #fff;
+    padding: 22px;
+    align-self: center;
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 22px;
+    margin-bottom: 12px;
+}
+
+.logout-btn{
+    background-color: aquamarine;
+    border: 2px solid #fff;
+    padding: 12px;
+    border-radius: 8px;
+    width: 20%;
+    margin-left: 22px;
+}
